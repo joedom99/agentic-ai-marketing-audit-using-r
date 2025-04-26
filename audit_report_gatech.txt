@@ -1,0 +1,22 @@
+Website Audit for: https://www.gatech.edu 
+
+ Homepage Title: Georgia Institute of Technology 
+Meta Description: Explore Georgia Tech, a top public research university developing leaders in technology and improving lives, with diverse programs and global reach. 
+
+ Mobile-friendly: Yes 
+
+ Keyword extraction and word cloud created. 
+
+ Homepage load time (seconds): 0.08 
+
+ Link ratio pie chart created. 
+
+ Based on the SEO analysis, here are three specific suggestions to improve the SEO of your webpage:
+
+1. **Include Primary Keywords Early in the Title**: Incorporate important keywords in the beginning of the title that are related to the education sector or the specific areas of expertise at Georgia Institute of Technology. For instance, "Top Research University: Georgia Institute of Technology". This may help to capture user attention and enhance visibility in search results related to such topics.
+
+2. **Make the Meta Description Action-Oriented and Concise**: The current meta description provides good information but could be more direct and action-oriented. A proposed revision could be: "Join Georgia Tech, a leading public research university, and develop as a technology leader. Broaden your horizons through our diverse programs and global reach.". This description call-to-action phrase can drive more clicks and interactions from the SERPs.
+
+3. **Geo-Targeted Terms**: If your university mainly targets students in a specific geographical location, consider adding geo-targeted terms in your title or meta description. For example, if most of your students are from Atlanta, you could consider updating your title to "Georgia Institute of Technology - The Leading Research University in Atlanta".
+
+Please note, SEO improvements often takes time to reflect in search engine rankings and might vary based on other factors like overall website performance, backlinks, competitors' strategies, etc.
