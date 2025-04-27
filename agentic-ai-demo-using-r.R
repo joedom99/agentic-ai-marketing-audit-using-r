@@ -126,13 +126,22 @@ scraped_title <- scraped_info$title
 scraped_meta <- scraped_info$description
 action_1 <- paste("Homepage Title:", scraped_title, "\nMeta Description:", scraped_meta)
 
+# Print result to console
+cat("\n--- ACTION 1: Homepage Title and Meta Description ---\n")
+cat(action_1, "\n\n")
+
 # === ACTION 2 (AGENTIC): Mobile-friendly check ===
 is_mobile_friendly <- check_mobile_friendly(site)
 action_2 <- paste("Mobile-friendly:", ifelse(is_mobile_friendly, "Yes", "No"))
 
+# Print result to console
+cat("\n--- ACTION 2: Mobile-Friendly Check ---\n")
+cat(action_2, "\n\n")
+
 # === ACTION 3 (DIRECT R): Extract keywords + create word cloud ===
 keywords_table <- extract_keywords(paste(scraped_title, scraped_meta))
 message("Creating keyword wordcloud...")
+
 if (!is.null(keywords_table)) {
   # Set random seed for reproducibility
   set.seed(123)
@@ -213,6 +222,11 @@ seo_prompt <- paste("Analyze SEO and give 3 specific improvement suggestions for
                     "Meta Description: ", scraped_meta)
 
 action_6 <- chat$chat(seo_prompt)
+
+# Print result to console
+cat("\n--- ACTION 6: SEO Analysis Suggestions ---\n")
+cat(action_6, "\n\n")
+
 
 # ---- STEP 6: Save Results to File ----
 
