@@ -9,7 +9,7 @@ This repository provides a complete example of **Agentic AI** using R to perform
 It demonstrates a combination of **autonomous agent reasoning** (via OpenAI's GPT-4) and **direct R-based analysis** for an effective, practical application.
 
 **Full details about this script can be found on my blog:**
-👉 [https://blog.marketingdatascience.ai](https://blog.marketingdatascience.ai)
+👉 [[https://blog.marketingdatascience.ai](https://blog.marketingdatascience.ai/agentic-ai-with-r-building-an-automated-website-auditor-from-scratch-1a42d0bd7bae)](https://blog.marketingdatascience.ai)
 
 The audit covers:
 - Scraping the homepage title and meta description (Agentic)
