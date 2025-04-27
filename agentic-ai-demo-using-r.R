@@ -120,7 +120,7 @@ site <- "https://www.gatech.edu"   # Full address of the target site
 
 message("Auditing: ", site)
 
-# === ACTION 1 (AGENTIC): Scrape homepage title and meta ===
+# === ACTION 1 (DIRECT R): Scrape homepage title and meta ===
 scraped_info <- web_scrape(site)
 scraped_title <- scraped_info$title
 scraped_meta <- scraped_info$description
